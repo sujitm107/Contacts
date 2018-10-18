@@ -12,6 +12,7 @@
 		816F97BF217817EF00ECC34A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816F97BD217817EF00ECC34A /* Main.storyboard */; };
 		816F97C1217817F000ECC34A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 816F97C0217817F000ECC34A /* Assets.xcassets */; };
 		816F97C4217817F000ECC34A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816F97C2217817F000ECC34A /* LaunchScreen.storyboard */; };
+		816F97CC217818C700ECC34A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816F97CB217818C700ECC34A /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		816F97C0217817F000ECC34A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		816F97C3217817F000ECC34A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		816F97C5217817F000ECC34A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816F97CB217818C700ECC34A /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				816F97C0217817F000ECC34A /* Assets.xcassets */,
 				816F97C2217817F000ECC34A /* LaunchScreen.storyboard */,
 				816F97C5217817F000ECC34A /* Info.plist */,
+				816F97CB217818C700ECC34A /* TableViewController.swift */,
 			);
 			path = TableViewTest;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				816F97BC217817EF00ECC34A /* ViewController.swift in Sources */,
+				816F97CC217818C700ECC34A /* TableViewController.swift in Sources */,
 				816F97BA217817EF00ECC34A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
